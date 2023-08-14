@@ -1,6 +1,5 @@
 "use client";
 
-import { Home, Plus, Settings } from "lucide-react";
 import { usePathname, useRouter } from "next/navigation";
 
 import { cn } from "@/lib/utils";
@@ -25,19 +24,19 @@ export const Sidebar = ({ isPro }: SidebarProps) => {
 
   const routes = [
     {
-      icon: Home,
+      icon: "★",
       href: "/",
       label: "Home",
       pro: false,
     },
     {
-      icon: Plus,
+      icon: "★",
       href: "/companion/new",
       label: "Create",
       pro: true,
     },
     {
-      icon: Settings,
+      icon: "★",
       href: "/settings",
       label: "Settings",
       pro: false,

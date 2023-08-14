@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { UserButton } from "@clerk/nextjs";
 import { Poppins } from "next/font/google";
-import { Sparkles } from "lucide-react";
+// import { Sparkles } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 import { MobileSidebar } from "@/components/mobile-sidebar";
@@ -38,11 +38,11 @@ export const Navbar = ({ isPro }: NavbarProps) => {
         {!isPro && (
           <Button onClick={proModal.onOpen} size="sm" variant="premium">
             Upgrade
-            <Sparkles className="h-4 w-4 fill-white text-white ml-2" />
+            {/* <Sparkles className="h-4 w-4 fill-white text-white ml-2" /> */}
           </Button>
         )}
         <ModeToggle />
-        <UserButton afterSignOutUrl="/" />
+        {/* <UserButton afterSignOutUrl="/" /> */}
       </div>
     </div>
   );
