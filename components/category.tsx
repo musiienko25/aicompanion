@@ -1,13 +1,13 @@
 "use client";
 
 import qs from "query-string";
-import { Category } from "@prisma/client";
+// import { Category } from "@prisma/client";
 import { useRouter, useSearchParams } from "next/navigation";
 
 import { cn } from "@/lib/utils";
 
 interface CategoriesProps {
-  data: Category[];
+  data: [];
 }
 
 export const Categories = ({ data }: CategoriesProps) => {
@@ -55,7 +55,7 @@ export const Categories = ({ data }: CategoriesProps) => {
       >
         Newest
       </button>
-      {data.map((item) => (
+      {/* {data.map((item) => (
         <button
           onClick={() => onClick(item.id)}
           className={cn(
@@ -80,7 +80,7 @@ export const Categories = ({ data }: CategoriesProps) => {
         >
           {item.name}
         </button>
-      ))}
+      ))} */}
     </div>
   );
 };
