@@ -8,6 +8,8 @@ body,
 
   height: 100%
 }
+
+.menu {color: red}
  
 @layer base {
   :root {
