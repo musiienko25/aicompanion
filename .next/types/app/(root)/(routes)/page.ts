@@ -1,4 +1,4 @@
-// File: /Users/musiienko/Projects/aicompanion/aicompanion/ai-companion/app/(root)/(routes)/page.tsx
+// File: /Users/musiienko/Projects/aicompanion/app/(root)/(routes)/page.tsx
 import * as entry from '../../../../../app/(root)/(routes)/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

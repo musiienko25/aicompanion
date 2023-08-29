@@ -1,1 +1,3 @@
-{}
+{
+  "/(root)/(routes)/page": "app/(root)/(routes)/page.js"
+}
