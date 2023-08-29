@@ -601,6 +601,9 @@ video {
 .pt-16 {
   padding-top: 4rem;
 }
+.pt-20 {
+  padding-top: 5rem;
+}
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
