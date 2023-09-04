@@ -1,5 +1,7 @@
 # AI Companion
 
+This is an application where you can chat with Einstein or Mark Zuckerberg. For example, ask them for advice about your plans or ask them to solve a problem for you
+
 SaaS AI Companion with Next.js 13, React, Tailwind, Prisma, Stripe
 
 Features:
