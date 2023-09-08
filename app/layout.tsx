@@ -1,6 +1,8 @@
 import { ThemeProvider } from "@/components/theme-provider";
 import { ClerkProvider } from "@clerk/nextjs";
 
+import { cn } from "@/lib/utils";
+
 import "./globals.css";
 
 export const metadata = {
@@ -15,7 +17,7 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en" suppressHydrationWarning>
-        <body>
+        <body className="bg-secondary">
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
             {" "}
             {children}
